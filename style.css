@@ -39,7 +39,7 @@ body{
     /*width: calc(100%/6);*/
     font-weight: bold;
     text-decoration: none;
-    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .h-list a{
@@ -102,20 +102,25 @@ ul li p{
 .works{
     display: flex;
     flex-wrap: wrap;
-    /*text-align: center;*/
+    text-align: center;
     margin: 0 auto;
 }
 
 .w-line{
     display: flex;
     list-style: none;
+    width: 80%;
     justify-content: space-between;
     margin: 0 auto;
-    width: 80%;
 }
 
 .w-line p{
     text-align: center;
+}
+
+.w-line-img{
+    text-align: center;
+    margin: 0 auto;
 }
 
 .w-img{
@@ -234,6 +239,7 @@ ul li p{
 
     .w-line{
         flex-wrap: wrap;
+        flex-flow: column;
         text-align: center;
     }
 
@@ -244,7 +250,6 @@ ul li p{
     .w-img{
         display:flex;
         flex-flow: column;
-        text-align: center;
         width: 300px;
         height: auto;
     }
