@@ -37,6 +37,7 @@ body{
     list-style: none;
     width: calc(100%/6);
     font-weight: bold;
+    text-decoration: none;
 }
 
 .h-list a{
