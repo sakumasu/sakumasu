@@ -35,13 +35,14 @@ body{
 
 .h-list{
     list-style: none;
-    width: calc(100%/6);
+    /*width: calc(100%/6);*/
     font-weight: bold;
     text-decoration: none;
 }
 
 .h-list a{
-    color: #2e2e2e
+    text-decoration: none;
+    color: #2e2e2e;
 }
 
 .h-img1{
@@ -219,4 +220,5 @@ ul li p{
         opacity: 0;
         display: none;
     }
+
 }
