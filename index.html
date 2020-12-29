@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My portfolio</title>
+  <!-- BootstrapのCSS読み込み -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- BootstrapのJS読み込み -->
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="h-portforio">My Portfolio</div>
+    <div class="container">
+
+      <div class="sp-menu">
+        <input type="checkbox" id="nav-input" class="nav-invisible">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <div id="nav-contents">
+          <nav>
+            <ul>
+              <li class="sp-list"><a href="#home">Home</a></li>
+              <li class="sp-list"><a href="#about">About</a></li>
+              <li class="sp-list"><a href="#skills">Skills</a></li>
+              <li class="sp-list"><a href="#service">Service</a></li>
+              <li class="sp-list"><a href="#works">Works</a></li>
+              <li class="sp-list"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="main">
+        <nav class="h-nav">
+          <ul class="h-menu">
+            <li class="h-list"><a href="#home">Home</a></li>
+            <li class="h-list"><a href="#about">About</a></li>
+            <li class="h-list"><a href="#skills">Skills</a></li>
+            <li class="h-list"><a href="#service">Service</a></li>
+            <li class="h-list"><a href="#works">Works</a></li>
+            <li class="h-list"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <main>
+    <div class="h-img1"><img src="img/topimg.png" alt="イメージ" class="h-img"></div>
+
+    <h2 id="about">About</h2>
+    <div class="a-img">
+      <img src="img/me150.png" alt="本人写真" class="me">
+      <div class="a-text">
+        <span>北海道にて2020年からWebエンジニアとして活動を開始。<br>
+          わかりやすくシンプルなWebページを作成いたします。<br>
+          丁寧かつ迅速な仕事を心がけております。<br>
+        </span>
+      </div>
+    </div>
+
+    <h2 id="skills">Skills</h2>
+    <div class="skills">
+      <ul class="m-line">
+        <li><img src="img/html.PNG" alt="html"></li>
+        <li><img src="img/css.PNG" alt="css"></li>
+        <li><img src="img/bootstrap.PNG" alt="bootstrap" class="wp"></li>
+      </ul>
+    </div>
+
+    <h2 id="service">Service</h2>
+    <div class="service">
+      <ul class="m-line">
+        <li><img src="img/website.PNG" alt="website"><br>
+          <p>webサイト制作</p>
+        </li>
+        <li><img src="img/coding.PNG" alt="coding"><br>
+          <p>coding</p>
+        </li>
+        <li><img src="img/responsive.PNG" alt="responsive"><br>
+          <p>レスポンシブ対応</p>
+        </li>
+      </ul>
+    </div>
+
+    <h2 id="works">Works</h2>
+    <div class="works">
+      <ul class="w-line">
+        <li>
+          <p>架空のコーポレートサイト模写①</p><img src="img/sample_site600.png" alt="sample_site" class="w-img">
+        </li>
+        <li>
+          <p>架空のコーポレートサイト模写②</p><img src="img/sample_company600.png" alt="sample_company" class="w-img">
+        </li>
+      </ul>
+    </div>
+
+    <div class="Form">
+      <h2 id="contact">Contact</h2>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">氏名<span class="red">※必須※</span></p>
+        <input type="text" class="Form-Item-Input" placeholder="例）山田花子">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">メールアドレス<span class="red">※必須※</span></p>
+        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label isMsg">お問い合わせ詳細<span class="red">※必須※</span></p>
+        <textarea class="Form-Item-Textarea"></textarea>
+      </div>
+      <input type="submit" class="Form-Btn" value="送信する">
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright&copy <a href="#" class="footer">M.saku</a> All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
