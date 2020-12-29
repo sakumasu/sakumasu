@@ -39,7 +39,7 @@ body{
     /*width: calc(100%/6);*/
     font-weight: bold;
     text-decoration: none;
-    margin-left: 12px;
+    /*margin-right: 2%;*/
 }
 
 .h-list a{
@@ -102,7 +102,7 @@ ul li p{
 .works{
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ ul li p{
 
 .w-img{
     border: 1px solid #2e2e2e;
-    width: 400px;
+    width: 300px;
     height: auto;
     margin-bottom: 30px;
 }
@@ -154,6 +154,10 @@ ul li p{
     color: white;
 }
 
+.footer a:hover{
+    color: white;
+    transition: .5s;
+}
 
 #nav-open span,#nav-open span:before,#nav-open span:after{
     position: absolute;
@@ -176,7 +180,6 @@ ul li p{
 #nav-open span:after{
     bottom: -24px;
 }
-
 
 .nav-invisible{
     display: none;
@@ -212,12 +215,21 @@ ul li p{
 
 #nav-input:checked ~ #nav-contents{
     opacity: .9;
-
 }
 
 @media screen and (max-width:780px){
     .h-menu{
         display: none;
+    }
+
+    .m-line{
+        display:flex;
+        flex-flow: column;
+        text-align: center;
+    }
+    
+    .img-pd{
+        padding-bottom: 20px;
     }
 
     .w-line{
@@ -228,7 +240,14 @@ ul li p{
     .h-portforio{
         font-size: 24px;
     }
-    
+
+    .w-img{
+        display:flex;
+        flex-flow: column;
+        text-align: center;
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media screen and (min-width:781px){
