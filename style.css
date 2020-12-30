@@ -25,6 +25,7 @@ body{
     font-weight: bold;
     width: 80%;
     color: #2e2e2e;
+    text-shadow: white 1px 2px 3px;
 }
 
 .h-menu{
@@ -86,6 +87,7 @@ h2{
     text-decoration: underline;
     background:  #897858;
     border-radius: 5px;
+    text-shadow: white 1px 1px 2px;
 }
 
 .m-line{
@@ -277,3 +279,4 @@ ul li p{
     }
 
 }
+
